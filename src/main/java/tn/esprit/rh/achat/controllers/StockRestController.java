@@ -17,8 +17,7 @@ public class StockRestController {
 
 	@Autowired
 	IStockService stockService;
-	//// http://localhost:8089/SpringMVC/stock/retrieve-all-stocks
-// http://localhost:8089/SpringMVC/stock/retrieve-all-stocks
+
 	// http://localhost:8089/SpringMVC/stock/retrieve-all-stocks
 	@GetMapping("/retrieve-all-stocks")
 	@ResponseBody
